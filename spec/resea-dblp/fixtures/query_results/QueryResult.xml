@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<query id="141893">Behavior Model Synthesis</query>
+<status code="12">OK</status>
+<time unit="msecs">11.72</time>
+<completions total="1" computed="1" sent="1">
+<c sc="6" dc="3" oc="3" id="10822972">synthesis</c>
+</completions>
+<suggestions computed="0" sent="0">
+</suggestions>
+<hits total="3" computed="3" sent="3" first="0">
+<hit score="6" id="1505758">
+<title><![CDATA[<dblp:authors><dblp:author>Christophe Damas</dblp:author><dblp:author>Bernard Lambeau</dblp:author><dblp:author>Francois Roucoux</dblp:author><dblp:author>Axel van Lamsweerde</dblp:author></dblp:authors><dblp:title ee="http://dx.doi.org/10.1109/ICSE.2009.5070543">Analyzing critical process models through behavior model synthesis.</dblp:title><dblp:venue url="db/conf/icse/icse2009.html#DamasLRL09">ICSE</dblp:venue><dblp:year>2009</dblp:year><dblp:type>inproceedings</dblp:type>]]></title>
+<url>http://www.dblp.org/rec/bibtex/conf/icse/DamasLRL09</url>
+</hit>
+<hit score="6" id="1695565">
+<title><![CDATA[<dblp:authors><dblp:author>Hyunok Oh</dblp:author></dblp:authors><dblp:title ee="http://doi.ieeecomputersociety.org/10.1109/ISQED.2008.138">Constant Rate Dataflow Model with Intermediate Ports for Efficient Code Synthesis with Top-Down Design and Dynamic Behavior. </dblp:title><dblp:venue url="db/conf/isqed/isqed2008.html#Oh08">ISQED 2008:190-193</dblp:venue><dblp:year>2008</dblp:year><dblp:type>inproceedings</dblp:type>]]></title>
+<url>http://www.dblp.org/rec/bibtex/conf/isqed/Oh08</url>
+</hit>
+<hit score="6" id="1883106">
+<title><![CDATA[<dblp:authors><dblp:author>Pengcheng Zhang</dblp:author><dblp:author>Yu Zhou</dblp:author><dblp:author>Bixin Li</dblp:author></dblp:authors><dblp:title ee="http://doi.ieeecomputersociety.org/10.1109/SNPD.2007.98">A service-oriented methodology supporting automatic synthesis and verification of component behavior model. </dblp:title><dblp:venue url="db/conf/snpd/snpd2007-1.html#ZhangZL07">SNPD 2007:511-516</dblp:venue><dblp:year>2007</dblp:year><dblp:type>inproceedings</dblp:type>]]></title>
+<url>http://www.dblp.org/rec/bibtex/conf/snpd/ZhangZL07</url>
+</hit>
+</hits>
+</result>
