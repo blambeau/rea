@@ -22,7 +22,7 @@ module Resea
       it 'parses query results correctly' do
         parse("QueryResult.xml").first.should eq({
           :kind    => "inproceedings",
-          :key     => "conf/icse/DamasLRL09",
+          :key     => WorkKey("dblp://conf/icse/DamasLRL09"),
           :title   => "Analyzing critical process models through behavior model synthesis.",
           :source  => "ICSE",
           :year    => "2009",

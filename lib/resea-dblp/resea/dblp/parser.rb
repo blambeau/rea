@@ -17,6 +17,10 @@ module Resea
 
       private
 
+      def work_key(identifier)
+        WorkKey.new("dblp", identifier)
+      end
+
       def parse_xml(xml, source)
         options = Nokogiri::XML::ParseOptions::STRICT
         parsed  = Nokogiri::XML(xml.to_s, source.to_s, nil, options)

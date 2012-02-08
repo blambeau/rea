@@ -23,7 +23,7 @@ module Resea
         got = parse "Damas2009.xml"
         expected = {
           :kind    => "inproceedings",
-          :key     => "conf/icse/DamasLRL09",
+          :key     => WorkKey("dblp://conf/icse/DamasLRL09"),
           :title   => "Analyzing critical process models through behavior model synthesis.",
           :source  => "ICSE",
           :year    => "2009",
@@ -39,7 +39,7 @@ module Resea
         got = parse "QueryEntry.xml"
         expected = {
           :kind    => "inproceedings",
-          :key     => "conf/icse/DamasLRL09",
+          :key     => WorkKey("dblp://conf/icse/DamasLRL09"),
           :title   => "Analyzing critical process models through behavior model synthesis.",
           :source  => "ICSE 2009:441-451",
           :year    => "2009",
@@ -55,7 +55,7 @@ module Resea
         got = parse "Damas2005.xml"
         expected = {
           :kind       => "article",
-          :key        => "journals/tse/DamasLDL05",
+          :key        => WorkKey("dblp://journals/tse/DamasLDL05"),
           :title      => "Generating Annotated Behavior Models from End-User Scenarios.",
           :source     => "IEEE Trans. Software Eng.",
           :year       => "2005",
