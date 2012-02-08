@@ -9,3 +9,4 @@ module Resea
 
 end # module Resea
 
+require_relative 'resea-dblp/resea/dblp'

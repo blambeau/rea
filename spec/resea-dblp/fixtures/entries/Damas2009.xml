@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dblp>
+<inproceedings key="conf/icse/DamasLRL09" mdate="2009-06-16">
+<author>Christophe Damas</author>
+<author>Bernard Lambeau</author>
+<author>Francois Roucoux</author>
+<author>Axel van Lamsweerde</author>
+<title>Analyzing critical process models through behavior model synthesis.</title>
+<pages>441-451</pages>
+<year>2009</year>
+<booktitle>ICSE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICSE.2009.5070543</ee>
+<crossref>conf/icse/2009</crossref>
+<url>db/conf/icse/icse2009.html#DamasLRL09</url>
+</inproceedings>
+</dblp>
