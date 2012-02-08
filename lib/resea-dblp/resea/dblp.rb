@@ -11,13 +11,19 @@ module Resea
     end
     module_function :search
 
-    private
-
-    include Resea::ErrorUtils
-
     def url
       "http://www.dblp.org"
     end
+    module_function :url
+
+    def shortcut
+      "dblp"
+    end
+    module_function :shortcut
+
+    private
+
+    include Resea::ErrorUtils
 
     def entry_url(identifier)
       "#{url}/rec/bibtex/#{identifier}.xml"

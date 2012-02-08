@@ -58,3 +58,5 @@ module Resea
 
   end # class Command
 end # module Resea
+require_relative "command/utils"
+require_relative "command/search"
