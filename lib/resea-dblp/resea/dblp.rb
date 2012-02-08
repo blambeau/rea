@@ -42,6 +42,7 @@ module Resea
       end
     end
 
+    Resea::register_provider(self)
   end # module DBLP
 end # module Resea
 require_relative 'dblp/parser'

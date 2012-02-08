@@ -12,6 +12,16 @@ module Resea
   end
   module_function :WorkKey
 
+  def register_provider(provider)
+    providers << provider
+  end
+  module_function :register_provider
+
+  def providers
+    @providers ||= []
+  end
+  module_function :providers
+
 end # module Resea
 
 require_relative 'resea/work_key'
