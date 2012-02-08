@@ -6,6 +6,14 @@ module Resea
         new.parse(*args, &bl)
       end
 
+      def parse(path)
+        if path.respond_to?(:to_path)
+          parse_text(Path(path).read, path)
+        else
+          parse_text(path, nil)
+        end
+      end
+
       private
 
       def parse_xml(xml, source)
@@ -17,7 +25,9 @@ module Resea
       end
 
       def unrecognized!(source)
-        raise Resea::UnrecognizedError, "Error while parsing entry (#{source})"
+        msg = "Error while parsing #{source.basename}"
+        msg << ", #{$!.message}" if $!
+        raise Resea::UnrecognizedError, msg
       end
 
     end # class Parser

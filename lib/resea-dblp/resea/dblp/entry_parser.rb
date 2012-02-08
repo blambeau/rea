@@ -2,10 +2,6 @@ module Resea
   module DBLP
     class EntryParser < Parser
 
-      def parse(path)
-        parse_text(path.read, path)
-      end
-
       def parse_text(entry, source = nil)
         entries = []
         parse_xml(entry, source) do |doc|

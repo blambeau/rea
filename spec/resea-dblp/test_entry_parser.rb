@@ -3,12 +3,8 @@ module Resea
   module DBLP
     describe EntryParser do
 
-      def fixture(x)
-        Path.dir/"fixtures/entries"/x
-      end
-
       def parse(x)
-        EntryParser.parse(fixture(x))
+        EntryParser.parse(Path.dir/"fixtures/entries"/x)
       end
 
       it 'fails gracefully on unrecognized' do
