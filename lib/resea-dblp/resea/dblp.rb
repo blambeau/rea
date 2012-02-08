@@ -6,6 +6,11 @@ module Resea
     end
     module_function :grab
 
+    def search(query)
+      Search.new.call(query)
+    end
+    module_function :search
+
     private
 
     include Resea::ErrorUtils
@@ -43,4 +48,5 @@ require_relative 'dblp/parser'
 require_relative 'dblp/entry_parser'
 require_relative 'dblp/query_result_parser'
 require_relative 'dblp/grab'
+require_relative 'dblp/search'
 
