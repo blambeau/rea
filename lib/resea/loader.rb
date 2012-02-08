@@ -1,0 +1,8 @@
+require "http"
+require "nokogiri"
+require "quickl"
+require "pdf/toolkit"
+require "epath"
+require "alf"
+require "unicode"
+require "bibtex"
