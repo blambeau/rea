@@ -131,7 +131,6 @@ Gem::Specification.new do |s|
   s.add_dependency("pdf-toolkit", "= 1.0.0.rc1")
   s.add_dependency("epath", "~> 0.0.1")
   s.add_dependency("alf", "~> 0.11.1")
-  s.add_dependency("unicode", "~> 0.4")
   s.add_dependency("bibtex-ruby", "~> 2.0")
 
   # The version of ruby required by this gem
