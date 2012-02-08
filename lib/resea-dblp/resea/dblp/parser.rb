@@ -1,6 +1,7 @@
 module Resea
   module DBLP
     class Parser
+      include Resea::ErrorUtils
 
       def self.parse(*args, &bl)
         new.parse(*args, &bl)
@@ -17,17 +18,13 @@ module Resea
       private
 
       def parse_xml(xml, source)
-        parsed = Nokogiri::XML(xml.to_s, source.to_s, nil, 
-                                Nokogiri::XML::ParseOptions::STRICT)
+        options = Nokogiri::XML::ParseOptions::STRICT
+        parsed  = Nokogiri::XML(xml.to_s, source.to_s, nil, options)
         block_given? ? yield(parsed) : parsed
-      rescue NoMethodError, Nokogiri::XML::SyntaxError
-        unrecognized!(source)
-      end
-
-      def unrecognized!(source)
-        msg = "Error while parsing #{source.basename}"
-        msg << ", #{$!.message}" if $!
-        raise Resea::UnrecognizedError, msg
+      rescue NoMethodError
+        parse_format_error!(source)
+      rescue Nokogiri::XML::SyntaxError
+        parse_error!(source)
       end
 
     end # class Parser

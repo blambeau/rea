@@ -10,13 +10,13 @@ module Resea
       it 'fails gracefully on unrecognized' do
         lambda{ 
           parse("Unrecognized.xml") 
-        }.should raise_error(UnrecognizedError, /Unrecognized.xml/)
+        }.should raise_error(ParseFormatError, /Unrecognized.xml/)
       end
 
       it 'fails gracefully on erroneous' do
         lambda{ 
           parse("Erroneous.xml") 
-        }.should raise_error(UnrecognizedError, /Erroneous.xml/)
+        }.should raise_error(ParseError, /Erroneous.xml/)
       end
 
       it "works on proceedings" do
