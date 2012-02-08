@@ -7,6 +7,12 @@ require_relative "resea/errors"
 #
 module Resea
 
+  def WorkKey(str)
+    WorkKey.parse(str)
+  end
+  module_function :WorkKey
+
 end # module Resea
 
+require_relative 'resea/work_key'
 require_relative 'resea-dblp/resea/dblp'
