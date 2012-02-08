@@ -10,7 +10,8 @@ module Resea
 
   class SystemError < Error
   end
-  class ParseFormatError < SystemError; end
+  class ParseFormatError    < SystemError; end
+  class NotImplementedError < SystemError; end
 
   class DomainError < Error
   end
@@ -46,6 +47,10 @@ module Resea
     def parse_format_error!(source)
       msg = error_message("Unexpected parsing error (#{source})")
       raise Resea::ParseFormatError, msg
+    end
+
+    def not_implemented_error!(msg)
+      raise Resea::NotImplementedError, msg
     end
 
     def unexpected_error!(source)
