@@ -4,5 +4,5 @@
 module Resea
 
 end # module Resea
-require "resea/version"
-require "resea/loader"
+require_relative "resea/version"
+require_relative "resea/loader"
