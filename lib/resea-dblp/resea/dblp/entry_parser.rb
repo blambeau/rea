@@ -5,7 +5,6 @@ module Resea
       def parse(path)
         parse_text(path.read, path)
       end
-      def self.parse(*args, &bl); new.parse(*args, &bl); end
 
       def parse_text(entry, source = nil)
         entries = []

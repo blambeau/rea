@@ -2,6 +2,10 @@ module Resea
   module DBLP
     class Parser
 
+      def self.parse(*args, &bl)
+        new.parse(*args, &bl)
+      end
+
       private
 
       def parse_xml(xml, source)
