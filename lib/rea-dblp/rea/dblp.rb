@@ -1,4 +1,4 @@
-module Resea
+module Rea
   module DBLP
 
     def grab(identifier)
@@ -23,7 +23,7 @@ module Resea
 
     private
 
-    include Resea::ErrorUtils
+    include Rea::ErrorUtils
 
     def entry_url(identifier)
       "#{url}/rec/bibtex/#{identifier}.xml"
@@ -48,9 +48,9 @@ module Resea
       end
     end
 
-    Resea::register_provider(self)
+    Rea::register_provider(self)
   end # module DBLP
-end # module Resea
+end # module Rea
 require_relative 'dblp/parser'
 require_relative 'dblp/entry_parser'
 require_relative 'dblp/query_result_parser'

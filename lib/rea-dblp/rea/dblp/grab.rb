@@ -1,4 +1,4 @@
-module Resea
+module Rea
   module DBLP
     class Grab
       include DBLP
@@ -11,4 +11,4 @@ module Resea
 
     end # class Grab
   end # module DBLP
-end # module Resea
+end # module Rea

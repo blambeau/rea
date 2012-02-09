@@ -1,8 +1,8 @@
 require 'spec_helper'
-module Resea
+module Rea
   describe WorkKey, "to_ruby_literal" do
 
-    let(:wk){ Resea::WorkKey("dblp://conf/icse/DamasLRL09") }
+    let(:wk){ Rea::WorkKey("dblp://conf/icse/DamasLRL09") }
 
     it 'returns an evaluable expression' do
       eval(wk.to_ruby_literal).should be_a(WorkKey)
@@ -17,4 +17,4 @@ module Resea
     end
 
   end
-end # module Resea
+end # module Rea

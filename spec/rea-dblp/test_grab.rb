@@ -1,5 +1,5 @@
 require 'spec_helper'
-module Resea
+module Rea
   describe DBLP, "grab" do
 
     def grab(x)
@@ -15,4 +15,4 @@ module Resea
     end
 
   end # describe DBLP#grab
-end # module Resea
+end # module Rea

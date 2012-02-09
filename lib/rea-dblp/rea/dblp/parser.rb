@@ -1,7 +1,7 @@
-module Resea
+module Rea
   module DBLP
     class Parser
-      include Resea::ErrorUtils
+      include Rea::ErrorUtils
 
       def self.parse(*args, &bl)
         new.parse(*args, &bl)
@@ -33,4 +33,4 @@ module Resea
 
     end # class Parser
   end # module DBLP
-end # module Resea
+end # module Rea

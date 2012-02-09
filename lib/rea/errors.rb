@@ -1,4 +1,4 @@
-module Resea
+module Rea
 
   class Error < StandardError
     attr_reader :cause
@@ -31,32 +31,32 @@ module Resea
 
     def parse_error!(source)
       msg = error_message("Error while parsing", source)
-      raise Resea::ParseError, msg
+      raise Rea::ParseError, msg
     end
 
     def third_party_error!(source)
       msg = error_message("Error with third party service", source)
-      raise Resea::ThirdPartyError, msg
+      raise Rea::ThirdPartyError, msg
     end
 
     def not_found_error!(source)
       msg = error_message("Unable to find", source)
-      raise Resea::NotFoundError, msg
+      raise Rea::NotFoundError, msg
     end
 
     def parse_format_error!(source)
       msg = error_message("Unexpected parsing error (#{source})")
-      raise Resea::ParseFormatError, msg
+      raise Rea::ParseFormatError, msg
     end
 
     def not_implemented_error!(msg)
-      raise Resea::NotImplementedError, msg
+      raise Rea::NotImplementedError, msg
     end
 
     def unexpected_error!(source)
       msg = error_message("Unexpected error (#{source})")
-      raise Resea::SystemError, msg
+      raise Rea::SystemError, msg
     end
 
   end
-end # module Resea
+end # module Rea

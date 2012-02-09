@@ -3,7 +3,7 @@ require 'rea'
 
 module Helpers
   def WorkKey(str)
-    Resea::WorkKey(str)
+    Rea::WorkKey(str)
   end
 end
 

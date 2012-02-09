@@ -1,4 +1,4 @@
-module Resea
+module Rea
   class Command
     module Utils
 
@@ -28,4 +28,4 @@ module Resea
 
     end # module Utils
   end # class Command
-end # module Resea
+end # module Rea

@@ -1,4 +1,4 @@
-module Resea
+module Rea
   module DBLP
     class EntryParser < Parser
 
@@ -45,4 +45,4 @@ module Resea
 
     end # class EntryParser
   end # module DBLP
-end # module Resea
+end # module Rea

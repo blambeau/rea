@@ -4,5 +4,5 @@ Dir.chdir File.dirname(__FILE__) do
 end
 $:.unshift File.expand_path('../../lib', __FILE__)
 require 'rea/command'
-Resea::Command.run(ARGV)
+Rea::Command.run(ARGV)
 

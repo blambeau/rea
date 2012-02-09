@@ -2,7 +2,7 @@
 # Feel free to set $version manually.
 $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require "rea/version"
-$version = Resea::Version.to_s
+$version = Rea::Version.to_s
 
 #
 # This is your Gem specification. Default values are provided so that your library

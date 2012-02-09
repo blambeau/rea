@@ -1,4 +1,4 @@
-# Resea
+# Rea
 
 Research Exploring Assistant
 

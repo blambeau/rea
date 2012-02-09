@@ -1,4 +1,4 @@
-module Resea
+module Rea
   module Version
 
     MAJOR = 0

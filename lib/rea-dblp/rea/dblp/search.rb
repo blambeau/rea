@@ -1,4 +1,4 @@
-module Resea
+module Rea
   module DBLP
     class Search
       include DBLP
@@ -15,4 +15,4 @@ module Resea
 
     end # class Search
   end # module DBLP
-end # module Resea
+end # module Rea

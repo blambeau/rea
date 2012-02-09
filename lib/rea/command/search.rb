@@ -1,4 +1,4 @@
-module Resea
+module Rea
   class Command
     #
     # Search publications on the online libraries
@@ -14,10 +14,10 @@ module Resea
 
       # Install options
       options do |opt|
-        @provider = Resea::providers.first
+        @provider = Rea::providers.first
         @mainarg = :title
         @query   = {}
-        Resea::providers.each do |p|
+        Rea::providers.each do |p|
           opt.on("--#{p.shortcut}", "Search on #{p.url}"){ 
             @provider = p
           }
@@ -49,4 +49,4 @@ module Resea
 
     end # class Search
   end # class Command
-end # module Resea
+end # module Rea

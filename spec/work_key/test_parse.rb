@@ -1,5 +1,5 @@
 require 'spec_helper'
-module Resea
+module Rea
   describe WorkKey, ".parse" do
 
     it 'works on a typical dblp key' do
@@ -9,13 +9,13 @@ module Resea
       wk.identifier.should eq("conf/icse/DamasLRL09")
     end
 
-    it 'is aliased as Resea::WorkKey()' do
-      Resea::WorkKey("dblp://conf/icse/DamasLRL09").should be_a(WorkKey)
+    it 'is aliased as Rea::WorkKey()' do
+      Rea::WorkKey("dblp://conf/icse/DamasLRL09").should be_a(WorkKey)
     end
 
     it 'is idempotent' do
-      wk = Resea::WorkKey("dblp://conf/icse/DamasLRL09")
-      Resea::WorkKey(wk).should eq(wk)
+      wk = Rea::WorkKey("dblp://conf/icse/DamasLRL09")
+      Rea::WorkKey(wk).should eq(wk)
     end
 
     it 'raises an ArgumentError on an invalid key' do
@@ -25,4 +25,4 @@ module Resea
     end
 
   end
-end # module Resea
+end # module Rea

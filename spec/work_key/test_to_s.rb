@@ -1,12 +1,12 @@
 require 'spec_helper'
-module Resea
+module Rea
   describe WorkKey, "to_s" do
 
-    let(:wk){ Resea::WorkKey("dblp://conf/icse/DamasLRL09") }
+    let(:wk){ Rea::WorkKey("dblp://conf/icse/DamasLRL09") }
 
     it 'works on a typical dblp key' do
       wk.to_s.should eq("dblp://conf/icse/DamasLRL09")
     end
 
   end
-end # module Resea
+end # module Rea

@@ -1,5 +1,5 @@
 require 'spec_helper'
-module Resea
+module Rea
   module DBLP
     describe QueryResultParser do
 
@@ -35,4 +35,4 @@ module Resea
 
     end
   end # module DBLP
-end # module Resea
+end # module Rea

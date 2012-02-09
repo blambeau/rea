@@ -1,5 +1,5 @@
 require 'spec_helper'
-module Resea
+module Rea
   module DBLP
     describe EntryParser do
 
@@ -69,4 +69,4 @@ module Resea
 
     end
   end # module DBLP
-end # module Resea
+end # module Rea

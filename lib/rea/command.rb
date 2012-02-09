@@ -1,5 +1,5 @@
 require 'rea'
-module Resea
+module Rea
   #
   # rea - The Research Exploring Assistant
   #
@@ -27,7 +27,7 @@ module Resea
       end
       opt.on_tail("--version", "Show version") do
         raise Quickl::Exit, 
-              "rea #{Resea::VERSION} (c) 2012, Bernard Lambeau"
+              "rea #{Rea::VERSION} (c) 2012, Bernard Lambeau"
       end
     end
 
@@ -35,7 +35,7 @@ module Resea
       super
     rescue Quickl::Error
       raise
-    rescue Resea::Error => ex
+    rescue Rea::Error => ex
       if @trace
         dump_exception(ex)
       else
@@ -57,6 +57,6 @@ module Resea
     end
 
   end # class Command
-end # module Resea
+end # module Rea
 require_relative "command/utils"
 require_relative "command/search"

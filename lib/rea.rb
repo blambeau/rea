@@ -5,7 +5,7 @@ require_relative "rea/errors"
 #
 # Research Exploring Assistant
 #
-module Resea
+module Rea
 
   def WorkKey(str)
     WorkKey.parse(str)
@@ -22,7 +22,7 @@ module Resea
   end
   module_function :providers
 
-end # module Resea
+end # module Rea
 
 require_relative 'rea/work_key'
 require_relative 'rea-dblp/rea/dblp'

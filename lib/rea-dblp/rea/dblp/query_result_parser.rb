@@ -1,4 +1,4 @@
-module Resea
+module Rea
   module DBLP
     class QueryResultParser < Parser
 
@@ -34,5 +34,5 @@ module Resea
 
     end # class QueryResultParser
   end # module DBLP
-end # module Resea
+end # module Rea
 

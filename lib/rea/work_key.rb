@@ -1,4 +1,4 @@
-module Resea
+module Rea
   class WorkKey
 
     attr_reader :provider
@@ -26,8 +26,8 @@ module Resea
     end
 
     def to_ruby_literal
-      "Resea::WorkKey(#{to_s.inspect})"
+      "Rea::WorkKey(#{to_s.inspect})"
     end
 
   end # class WorkKey
-end # module Resea
+end # module Rea
