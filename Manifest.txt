@@ -1,5 +1,5 @@
-resea.gemspec
-resea.noespec
+rea.gemspec
+rea.noespec
 .gemtest
 CHANGELOG.md
 Gemfile

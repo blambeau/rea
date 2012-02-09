@@ -1,7 +1,7 @@
 # We require your library, mainly to have access to the VERSION number.
 # Feel free to set $version manually.
 $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
-require "resea/version"
+require "rea/version"
 $version = Resea::Version.to_s
 
 #
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   ################################################################### ABOUT YOUR GEM
 
   # Gem name (required)
-  s.name = "resea"
+  s.name = "rea"
 
   # Gem version (required)
   s.version = $version
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.description = "Helper to build a mental map of a research topic."
 
   # The URL of this gem home page (optional)
-  s.homepage = "https://github.com/blambeau/resea"
+  s.homepage = "https://github.com/blambeau/rea"
 
   # Gem publication date (required but auto)
   #

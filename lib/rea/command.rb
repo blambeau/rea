@@ -1,7 +1,7 @@
-require 'resea'
+require 'rea'
 module Resea
   #
-  # resea - The RESearch Exploring Assistant
+  # rea - The Research Exploring Assistant
   #
   # SYNOPSIS
   #   #{program_name} [--version] [--help] COMMAND [cmd opts] ARGS...
@@ -27,7 +27,7 @@ module Resea
       end
       opt.on_tail("--version", "Show version") do
         raise Quickl::Exit, 
-              "resea #{Resea::VERSION} (c) 2012, Bernard Lambeau"
+              "rea #{Resea::VERSION} (c) 2012, Bernard Lambeau"
       end
     end
 

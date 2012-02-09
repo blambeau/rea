@@ -8,9 +8,9 @@ template-info:
       safe-override: false
 variables:
   lower:
-    resea
+    rea
   upper:
-    Resea
+    Rea
   version:
     0.0.1
   summary: |-
@@ -20,7 +20,7 @@ variables:
   authors:
     - {name: Bernard Lambeau, email: blambeau@gmail.com}
   links:
-    - https://github.com/blambeau/resea
+    - https://github.com/blambeau/rea
   dependencies:
     - {name: http,        version: "~> 0.1.0",     groups: [runtime]}
     - {name: nokogiri,    version: "~> 1.5",       groups: [runtime]}

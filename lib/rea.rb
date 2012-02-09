@@ -1,6 +1,6 @@
-require_relative "resea/version"
-require_relative "resea/loader"
-require_relative "resea/errors"
+require_relative "rea/version"
+require_relative "rea/loader"
+require_relative "rea/errors"
 
 #
 # Research Exploring Assistant
@@ -24,5 +24,5 @@ module Resea
 
 end # module Resea
 
-require_relative 'resea/work_key'
-require_relative 'resea-dblp/resea/dblp'
+require_relative 'rea/work_key'
+require_relative 'rea-dblp/rea/dblp'

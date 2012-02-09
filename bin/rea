@@ -3,6 +3,6 @@ Dir.chdir File.dirname(__FILE__) do
   require 'bundler/setup'
 end
 $:.unshift File.expand_path('../../lib', __FILE__)
-require 'resea/command'
+require 'rea/command'
 Resea::Command.run(ARGV)
 
