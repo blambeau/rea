@@ -1,15 +1,10 @@
-GIT
-  remote: git://github.com/blambeau/alf.git
-  revision: c97ee5ddb185b47832473558421252568455504b
-  specs:
-    alf (0.11.1)
-      backports (~> 2.3.0)
-      myrrha (~> 1.2.1)
-      quickl (~> 0.4.2)
-
 GEM
   remote: http://rubygems.org/
   specs:
+    alf (0.12.0)
+      backports (~> 2.3.0)
+      myrrha (~> 1.2.1)
+      quickl (~> 0.4.2)
     backports (2.3.0)
     bibtex-ruby (2.0.4)
       latex-decode (>= 0.0.6)
@@ -42,7 +37,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  alf!
+  alf (~> 0.12.0)
   bibtex-ruby (~> 2.0)
   epath (~> 0.0.1)
   http (~> 0.1.0)
